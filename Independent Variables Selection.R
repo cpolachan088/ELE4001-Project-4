@@ -1,4 +1,4 @@
-library(forecast) 
+library(forecast) # Load necessary libraries
 library(xts) 
 library(tidyverse) 
 library(Metrics) 
