@@ -2,7 +2,7 @@ library(ggplot2) # Load necessary libraries
 library(lubridate)
 library(dplyr)
 
-dataset_name <- "cooking"  # Options: "long_term", "short_term", "candle", "vaping", "cooking"
+dataset_name <- "cooking" 
 
 # Function to visualize PM2.5 from any dataset with labeled background bands and average line on right
 visualize_pm25_complete <- function(file_path, date_format = "%d/%m/%Y %H:%M", aggregate_minutes = 1) {
