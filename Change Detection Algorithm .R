@@ -10,7 +10,7 @@ library(scales)
 setwd("C:/Users/Christo/Desktop/FYP/R Code/Change Detection Algorithm")
 
 # Set dataset name 
-dataset_name <- "cooking"  # Options: "long_term", "short_term", "candle", "vaping", "cooking"
+dataset_name <- "cooking"  
 
 # Read data
 fileName <- paste0("C:/Users/Christo/Desktop/FYP/R Code/DATASETS/", dataset_name,".csv")
