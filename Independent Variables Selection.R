@@ -13,7 +13,7 @@ library(gridExtra)  # For arranging multiple plots
 aggregationMinutes <- 60
 
 # Read and preprocess data
-fileName <- "C:/Users/Christo/Desktop/FYP/R Code/DATASETS/long_term.csv"
+fileName <- "C:/Users/Christo/Desktop/FYP/R Code/DATASETS/gams-dataset.csv"
 pollutionData <- read.csv(fileName, header = TRUE)
 
 # Convert instances of "No data" to NA and handle missing values
