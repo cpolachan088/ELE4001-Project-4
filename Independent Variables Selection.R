@@ -7,7 +7,7 @@ library(lubridate)
 library(caret)
 library(corrplot)
 library(randomForest)
-library(gridExtra)  # For arranging multiple plots
+library(gridExtra) 
 
 # Parameters
 aggregationMinutes <- 60
